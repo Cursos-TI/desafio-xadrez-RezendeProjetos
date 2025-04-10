@@ -28,5 +28,24 @@ int main() {
         k++;
     } while (k < 8);
 
+    printf("\n");
+    
+    printf("Movimento do Cavalo:\n");
+
+    // Loop externo para os dois movimentos para baixo
+    for (int i = 0; i < 2; i++) {
+        printf("Baixo\n");
+    }
+
+    // Loop interno (while) para o movimento à esquerda
+    int esquerda = 0;
+    while (esquerda < 1) {
+        printf("Esquerda\n");
+        esquerda++;
+    
+
+        }
+
+
     return 0;
 }
